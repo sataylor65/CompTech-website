@@ -1,0 +1,103 @@
+/* CSS for the Contact Page*/
+.message-box {
+    margin: 2vh 8vw;
+    color: #16325B;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+span {
+    color: #227B94;
+    font-weight: bold;
+    
+}
+
+.content {
+    margin: 2vh 8vw;
+    display: flex;
+    
+}
+.unit2, .unit3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-box1, .content-box2 {
+    flex: 1;
+    padding: 3vw;
+}
+.content-box1 {
+    padding-right:10vw;
+}
+.content-box1 h2{
+    color: #16325B;
+    margin-bottom: 10px;
+}
+.content-box2 {
+    padding-left: 8vw;
+}
+
+.content-box2 img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*CSS for Form components*/
+.contact-form-container {
+    background-color: #fff;
+    padding: 20px;
+    padding-right: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.message-box h2 {
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #16325B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #227B94;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+

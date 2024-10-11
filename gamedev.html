@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main-header.css">
+    <link rel="stylesheet" href="gamedev-content.css">
+    <title>Game Development</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-box">
+            <img class="logo" src="images/school-logo.png">
+        </div>
+        <div class="space-filler">
+            <!--Space filler-->
+        </div>
+        <nav>
+            <ul class="table">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li>
+                    <a class="units" href="units.html">Units</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a class="game-dev" href="gamedev.html">Game Development</a>
+                            <ul class="level2-droplist1">
+                                <li><a href="pygame.html">PyGame</a></li>
+                                <li><a href="godot.html">GoDot</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="web-dev" href="webdev.html">Web Development</a>
+                            <ul class="level2-droplist2">
+                                <li><a href="htmlpage.html">HTML</a></li>
+                                <li><a href="csspage.html">CSS</a></li>
+                                <li><a href="javascriptpage.html">JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="microcomp" href="microcomp.html">Microcomputers</a>
+                            <ul class="level2-droplist3">
+                                <li><a href="microbit.html">MicroBits</a></li>
+                                <li><a href="raspberry.html">Raspberry Pi</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="robotics" href="robotics.html">Robotics</a></li>
+                    </ul>
+                </li>
+                <li><a class="about" href="about.html">About</a></li>
+                <li><a class="contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="div02">
+        <img class="main-image" src="images/website-hosting-concept-with-circuits-cropped-small-slogan.jpg" alt="main image of circuits">
+        <p class="attribute">Designed by <a href="http://www.freepik.com/">Freepik</a></p>
+    </div> 
+
+    <div class="welcome-box">
+        <h2>Unit 1 - Game Development!</h2>
+            <p> Welcome to the exciting world of game development! 
+                As part of the Computing Technology elective, we dive into the fundamentals 
+                of creating games using PyGame and Godot Game Engine. 
+                Whether you’re a beginner or looking to enhance your skills, 
+                you’ll find valuable resources and tutorials to help you bring 
+                your game ideas to life. Let’s start creating!
+            </p>
+    </div>
+    <div class="content">
+        <div class="content-box1">
+            <h2>Unit Overview</h2>
+            <div class="unit1">
+            <p><span>Part One</span>
+                <br>
+                Embark on your journey by learning to code with Python, 
+                one of the most popular and versatile programming languages today. 
+                We will start with basic syntax and gradually move to more advanced 
+                concepts. With interactive tutorials and practical examples, you’ll 
+                quickly gain the skills needed to write efficient and effective Python code. 
+                Whether you’re new to programming or looking to expand your knowledge, 
+                our resources will help you succeed. Let’s get coding! <br><a href="unit-one.html">Learn More</a>
+            </p>
+            </div>
+            <div class="unit2">
+            <p><span>Part Two</span>
+                <br>
+                <p>Discover the power of PyGame, a set of Python modules designed for writing video games. 
+                    PyGame simplifies game development by providing functionalities for graphics, sound, and 
+                    input handling, making it an excellent choice for beginners and experienced programmers 
+                    alike. With PyGame, you can create engaging and interactive games while learning essential 
+                    programming concepts. Dive into our tutorials and resources to start building your own games today. 
+                    Let’s bring your game ideas to life with PyGame!<br><a href="unit-two.html">Learn More</a>
+                </p>
+            </div>
+            <div class="unit3">
+                <p><span>Part Three</span>
+                <br>
+                <p>Explore the capabilities of Godot, a powerful and open-source game engine perfect for creating 
+                    2D and 3D games. Godot offers a user-friendly interface and a flexible scripting system, making 
+                    it accessible for both beginners and experienced developers. With its extensive library of tools 
+                    and features, you can bring your game ideas to life with ease. Dive into our tutorials and resources 
+                    to start your game development journey with Godot. Let’s create something amazing! <br><a href="unit-three.html">Learn More</a>
+                </p>
+            </div>
+        </div>
+        <div class="content-box2">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="images/AI-codingWithPython.jpeg" alt="Image 1"></div>
+                    <div class="slide"><img src="images/AI-PyGameCode.jpeg" alt="Image 2"></div>
+                    <div class="slide"><img src="images/AI-GoDot1.jpeg" alt="Image 3"></div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <script src="Scripts/script.js"></script>
+            <p class="attribute">Slider with AI generated images.
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        
+        <div class="details">
+            <p>St John's College<br>
+                203 Woodlawn Road,<br>
+                Lismore, NSW 2480</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 St John's College. All rights reserved.</p>
+        <p>All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of St John's College or its content suppliers and is protected by international copyright laws. Unauthorized use, reproduction, or distribution of this content is strictly prohibited.</p>
+        </div>
+        <div class="syllabus">
+           <a href="https://curriculum.nsw.edu.au/learning-areas/tas/computing-technology-7-10-2022/overview" target="_blank">NSW Syllabus Link</a> 
+        </div>
+
+    </div>
+
+</body>
+</html>

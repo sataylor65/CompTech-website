@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main-header.css">
+    <link rel="stylesheet" href="contact-content.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-box">
+            <img class="logo" src="images/school-logo.png">
+        </div>
+        <div class="space-filler">
+            <!--Space filler-->
+        </div>
+        <nav>
+            <ul class="table">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li>
+                    <a class="units" href="units.html">Units</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a class="game-dev" href="gamedev.html">Game Development</a>
+                            <ul class="level2-droplist1">
+                                <li><a href="pygame.html">PyGame</a></li>
+                                <li><a href="godot.html">GoDot</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="web-dev" href="webdev.html">Web Development</a>
+                            <ul class="level2-droplist2">
+                                <li><a href="htmlpage.html">HTML</a></li>
+                                <li><a href="csspage.html">CSS</a></li>
+                                <li><a href="javascriptpage.html">JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="microcomp" href="microcomp.html">Microcomputers</a>
+                            <ul class="level2-droplist3">
+                                <li><a href="microbit.html">MicroBits</a></li>
+                                <li><a href="raspberry.html">Raspberry Pi</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="robotics" href="robotics.html">Robotics</a></li>
+                    </ul>
+                </li>
+                <li><a class="about" href="about.html">About</a></li>
+                <li><a class="contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="div02">
+        <img class="main-image" src="images/website-hosting-concept-with-circuits-cropped-small-slogan.jpg" alt="main image of circuits">
+        <p class="attribute">Designed by <a href="http://www.freepik.com/">Freepik</a></p>
+    </div> 
+
+    <div class="message-box">
+        <h2>Contact Me:</h2>
+        <div class="contact-form-container">
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <span class="error" id="nameError"></span><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <span class="error" id="emailError"></span><br><br>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <span class="error" id="messageError"></span><br><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="Scripts/validation.js"></script>
+    </div>
+    <div class="content">
+        <div class="content-box1">
+            <hr>
+            <br>
+            <p>Teacher: Mr S Taylor</p>
+            <p>Email: scott.taylor@lism.catholic.edu.au</p>
+            <p>Phone: (02) 6626 2600</p>
+            <br>
+            <hr>
+            <br>
+            <p>St John's College Woodlawn</p>
+            <p>PO Box 6</p>
+            <p>Lismore, NSW 2480</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        
+        <div class="details">
+            <p>St John's College<br>
+                203 Woodlawn Road,<br>
+                Lismore, NSW 2480</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 St John's College. All rights reserved.</p>
+        <p>All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of St John's College or its content suppliers and is protected by international copyright laws. Unauthorized use, reproduction, or distribution of this content is strictly prohibited.</p>
+        </div>
+        <div class="syllabus">
+           <a href="https://curriculum.nsw.edu.au/learning-areas/tas/computing-technology-7-10-2022/overview" target="_blank">NSW Syllabus Link</a> 
+        </div>
+
+    </div>
+
+</body>
+</html>

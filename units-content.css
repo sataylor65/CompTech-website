@@ -1,0 +1,49 @@
+/* CSS for the main content on Home Page*/
+.welcome-box {
+    margin: 2vh 8vw;
+    color: #16325B;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+span {
+    color: #227B94;
+    font-weight: bold;
+    
+}
+
+.content {
+    margin: 2vh 8vw;
+    display: flex;
+    
+}
+.unit2, .unit3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-box1, .content-box2 {
+    flex: 1;
+    padding: 3vw;
+}
+.content-box1 {
+    padding-right:5vw;
+}
+.content-box1 h2{
+    color: #16325B;
+    margin-bottom: 10px;
+}
+.content-box2 {
+    padding-left: 2vw;
+}
+
+.content-box2 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}

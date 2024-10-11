@@ -1,0 +1,66 @@
+/* CSS for the main content on PyGame Page*/
+.welcome-box {
+    margin: 2vh 1vw;
+    color: #16325B;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+span {
+    color: #16325B;
+    font-weight: bold;
+    
+}
+
+.content {
+    margin-top: 2vh;
+    margin-left: 8vw;
+    display: flex;
+    
+}
+.unit2, .unit3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-box1, .content-media {
+    flex: 1;
+    padding: 3vw;
+}
+.content-box1 {
+    padding-right:10vw;
+}
+.content-box1 h2{
+    color: #16325B;
+    margin-bottom: 10px;
+}
+.content-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin: 0;
+}
+
+.video-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 800px; 
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100%;*/
+    border: none;
+}
